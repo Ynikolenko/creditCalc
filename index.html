@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+
+	<div class="container">
+	  <h1>Калькулятор</h1> 
+	  <div class="input-group">
+	    <span class="input-group-addon"><i class="fa fa-money" aria-hidden="true"></i></span>
+	    <input type="text" id="summ" class="form-control" placeholder="Сумма займа">
+	  </div>
+	  <div class="space-10"></div>
+	  <div class="input-group">
+	    <span class="input-group-addon"><strong>%</strong></span>
+	    <input type="text" id="percent" class="form-control" placeholder="Годовой процент">
+	  </div>
+	  <div class="space-10"></div>
+	  <div class="input-group">
+	    <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+	    <input type="text" id="srok" class="form-control" placeholder="Срок займа в месяцах">
+	  </div>
+	  <div class="space-10"></div>
+	  <button id="get" class="btn btn-primary">Выполнить</button>
+	  <button id="clear" class="btn btn-danger">Очистить</button>
+	  <div class="space-10"></div>
+	  <div id="itog">
+	  </div>
+	</div>
+
+
+	<!-- Javascript code -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="script.js"></script>
+	
+
+</body>
+</html>
